@@ -81,7 +81,7 @@ function App() {
             speed={1.5}
             className="green-background"
           />
-          <ParallaxLayer offset={2.5} speed={2.5}>
+          <ParallaxLayer offset={2.25} speed={0.75}>
             <ServiceMobileItems />
           </ParallaxLayer>
           <ParallaxLayer offset={3} speed={0.5} className="green-background"  />
