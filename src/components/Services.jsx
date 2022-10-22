@@ -1,37 +1,21 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faBus,
   faPassport,
-  faCar,
   faTicket,
-  faHotel,
   faTicketAlt,
   faTree,
   faPersonChalkboard,
-  faDriversLicense,
 } from "@fortawesome/free-solid-svg-icons";
 
 const Services = () => {
   const availableServices = [
     {
-      title: "Local trip",
-      icon: faBus,
-    },
-    {
       title: "Residency and citizenship",
       icon: faPassport,
     },
     {
-      title: "Car rental",
-      icon: faCar,
-    },
-    {
       title: "Flight ticket",
       icon: faTicketAlt,
-    },
-    {
-      title: "Hotel reservation",
-      icon: faHotel,
     },
     {
       title: "Visa services",
@@ -44,10 +28,6 @@ const Services = () => {
     {
       title: "Travel and tourism course",
       icon: faPersonChalkboard,
-    },
-    {
-      title: "International driving license",
-      icon: faDriversLicense,
     },
   ];
 
