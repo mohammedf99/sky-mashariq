@@ -72,6 +72,10 @@ body {
   padding-left: 6px;
 }
 
+.white-title {
+  color: var(--white);
+}
+
 .service-section {
   color: var(--white);
   width: 100%;
@@ -120,6 +124,10 @@ body {
   margin-bottom: 5%;
 }
 
+.mobile-title-section {
+  margin-top: 20%;
+}
+
 .service-section-mobile {
   color: var(--white);
 }
@@ -129,7 +137,7 @@ body {
   color: var(--white);
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .service-grid-mobile {

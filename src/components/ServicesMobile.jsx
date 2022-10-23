@@ -32,8 +32,8 @@ const availableServices = [
 
 export const ServiceMobileTitle = () => {
   return (
-    <section className="center">
-      <h2 className="title">
+    <section className="center mobile-title-section">
+      <h2 className="title" style={{ color: "var(--white)" }}>
         Our <span className="gold-title">services</span>
       </h2>
     </section>

@@ -7,7 +7,7 @@ const MainSection = () => {
       <Navbar />
       <div style={{ height: "80%", display: "flex", justifyContent: "center", alignItems: "center" }}>
         <div className="center-column">
-          <h1 style={{ fontSize: "2em" }} >it is Time</h1>
+          <h1 style={{ fontSize: "2em", color: "var(--white)" }} >it is Time</h1>
           <h1 style={{ fontSize: "3em", color: "var(--gold)" }}>To Fly</h1>
         </div>
       </div>
