@@ -20,7 +20,7 @@ function App() {
     <>
       <MediaQuery maxWidth={760}>
         <Parallax
-          pages={1.65}
+          pages={1.75}
           style={{
             top: "0",
             left: "0",
