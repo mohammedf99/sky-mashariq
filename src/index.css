@@ -20,6 +20,13 @@ body {
   font-family: Fogie;
 }
 
+.back-img {
+  background-image: url("./assets/images/sky-back.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .center {
   display: flex;
   justify-content: center;

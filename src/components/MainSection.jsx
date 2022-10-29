@@ -3,7 +3,7 @@ import Navbar from "./Navbar";
 const MainSection = () => {  
 
   return (
-    <main style={{ height: "100%", width: "100%" }}>
+    <main style={{ height: "100%", width: "100%" }} className="back-img">
       <Navbar />
       <div style={{ height: "80%", display: "flex", justifyContent: "center", alignItems: "center" }}>
         <div className="center-column">
