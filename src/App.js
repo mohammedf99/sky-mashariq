@@ -18,7 +18,83 @@ import OutlinePattern from "./assets/images/pattern_outline.png";
 function App() {
   return (
     <>
-      <MediaQuery maxWidth={760}>
+
+      {/* iPhone 11, 12, 13, and 14 Pr display */}
+
+      <MediaQuery maxWidth={391}>
+        <Parallax
+          pages={2.3}
+          style={{
+            top: "0",
+            left: "0",
+            color: "var(--gold)",
+            backgroundColor: "var(--green)",
+          }}
+        >
+          <ParallaxLayer offset={0} speed={2} >
+            <MainSection />
+          </ParallaxLayer>
+          {/* <ParallaxLayer offset={0.35} speed={1}>
+            <img
+              src={OutlinePattern}
+              style={{
+                width: "100%",
+                marginLeft: "1%",
+                opacity: "1"
+              }}
+              alt="pattern"
+            />
+
+          </ParallaxLayer> */}
+          <ParallaxLayer offset={0.65} speed={2.5}>
+          <FontAwesomeIcon
+              icon={faPlane}
+              style={{
+                display: "block",
+                marginLeft: "45%",
+                transform: "rotate(-90deg)",
+                fontSize: "36px",
+                color: "var(--white)",
+              }}
+            />
+          </ParallaxLayer>
+          <ParallaxLayer offset={0.98} speed={1.25}>
+              <Introduction />
+              <ServiceMobileTitle />
+              <ServiceMobileItems />
+          </ParallaxLayer>
+          <ParallaxLayer offset={1.8} speed={1.25}>
+            <Contact />
+            {/* <p>I am smallest screen</p> */}
+          </ParallaxLayer>
+          <ParallaxLayer offset={1} speed={1.5}>
+            <img
+              src={OutlinePattern}
+              style={{
+                display: "block",
+                width: "50%",
+                marginLeft: "90%",
+                opacity: "0.5",
+              }}
+              alt="pattern"
+            />
+            </ParallaxLayer>
+            <ParallaxLayer offset={1.25} speed={1.5}>
+            <img
+              src={OutlinePattern}
+              style={{
+                display: "block",
+                width: "50%",
+                marginLeft: "-38%",
+                opacity: "0.5",
+              }}
+              alt="pattern"
+            />
+            </ParallaxLayer>
+        </Parallax>
+      </MediaQuery>
+
+      <MediaQuery minWidth={392} maxWidth={760}>
         <Parallax
           pages={2.15}
           style={{
