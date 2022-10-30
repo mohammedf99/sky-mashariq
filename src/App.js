@@ -18,7 +18,6 @@ import OutlinePattern from "./assets/images/pattern_outline.png";
 function App() {
   return (
     <>
-
       {/* iPhone 11, 12, 13, and 14 Pr display */}
 
       <MediaQuery maxWidth={391}>
@@ -31,7 +30,7 @@ function App() {
             backgroundColor: "var(--green)",
           }}
         >
-          <ParallaxLayer offset={0} speed={2} >
+          <ParallaxLayer offset={0} speed={2}>
             <MainSection />
           </ParallaxLayer>
           {/* <ParallaxLayer offset={0.35} speed={1}>
@@ -40,14 +39,13 @@ function App() {
               style={{
                 width: "100%",
                 marginLeft: "1%",
-                opacity: "1"
+                opacity: "0.3",
               }}
               alt="pattern"
             />
-
           </ParallaxLayer> */}
           <ParallaxLayer offset={0.65} speed={2.5}>
-          <FontAwesomeIcon
+            <FontAwesomeIcon
               icon={faPlane}
               style={{
                 display: "block",
@@ -59,13 +57,12 @@ function App() {
             />
           </ParallaxLayer>
           <ParallaxLayer offset={0.98} speed={1.25}>
-              <Introduction />
-              <ServiceMobileTitle />
-              <ServiceMobileItems />
+            <Introduction />
+            <ServiceMobileTitle />
+            <ServiceMobileItems />
           </ParallaxLayer>
           <ParallaxLayer offset={1.8} speed={1.25}>
             <Contact />
-            {/* <p>I am smallest screen</p> */}
           </ParallaxLayer>
           <ParallaxLayer offset={1} speed={1.5}>
             <img
@@ -78,8 +75,8 @@ function App() {
               }}
               alt="pattern"
             />
-            </ParallaxLayer>
-            <ParallaxLayer offset={1.25} speed={1.5}>
+          </ParallaxLayer>
+          <ParallaxLayer offset={1.25} speed={1.5}>
             <img
               src={OutlinePattern}
               style={{
@@ -90,10 +87,10 @@ function App() {
               }}
               alt="pattern"
             />
-            </ParallaxLayer>
+          </ParallaxLayer>
         </Parallax>
       </MediaQuery>
-
+      {/* Pro Max displays */}
       <MediaQuery minWidth={392} maxWidth={760}>
         <Parallax
           pages={2.15}
@@ -104,7 +101,7 @@ function App() {
             backgroundColor: "var(--green)",
           }}
         >
-          <ParallaxLayer offset={0} speed={2} >
+          <ParallaxLayer offset={0} speed={2}>
             <MainSection />
           </ParallaxLayer>
           {/* <ParallaxLayer offset={0.35} speed={1}>
@@ -113,14 +110,13 @@ function App() {
               style={{
                 width: "100%",
                 marginLeft: "1%",
-                opacity: "1"
+                opacity: "0.3",
               }}
               alt="pattern"
             />
-
           </ParallaxLayer> */}
           <ParallaxLayer offset={0.65} speed={2.5}>
-          <FontAwesomeIcon
+            <FontAwesomeIcon
               icon={faPlane}
               style={{
                 display: "block",
@@ -132,9 +128,9 @@ function App() {
             />
           </ParallaxLayer>
           <ParallaxLayer offset={0.98} speed={1.25}>
-              <Introduction />
-              <ServiceMobileTitle />
-              <ServiceMobileItems />
+            <Introduction />
+            <ServiceMobileTitle />
+            <ServiceMobileItems />
           </ParallaxLayer>
           <ParallaxLayer offset={1.6} speed={1.25}>
             <Contact />
@@ -150,8 +146,8 @@ function App() {
               }}
               alt="pattern"
             />
-            </ParallaxLayer>
-            <ParallaxLayer offset={1} speed={1.5}>
+          </ParallaxLayer>
+          <ParallaxLayer offset={1} speed={1.5}>
             <img
               src={OutlinePattern}
               style={{
@@ -162,7 +158,7 @@ function App() {
               }}
               alt="pattern"
             />
-            </ParallaxLayer>
+          </ParallaxLayer>
         </Parallax>
       </MediaQuery>
 
@@ -189,13 +185,13 @@ function App() {
                 width: "25%",
                 marginLeft: "37.5%",
                 marginTop: "-7.5%",
-                opacity: "0.5",
+                opacity: "0.3",
               }}
               alt="pattern"
             />
           </ParallaxLayer> */}
           <ParallaxLayer offset={0.65} speed={2.5}>
-          <FontAwesomeIcon
+            <FontAwesomeIcon
               icon={faPlane}
               style={{
                 display: "block",
