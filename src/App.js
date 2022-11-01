@@ -76,7 +76,7 @@ function App() {
               alt="pattern"
             />
           </ParallaxLayer>
-          <ParallaxLayer offset={1.25} speed={1.5}>
+          <ParallaxLayer offset={1.35} speed={1.5}>
             <img
               src={OutlinePattern}
               style={{
